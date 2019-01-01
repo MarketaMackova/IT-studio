@@ -1,0 +1,17 @@
+.site-header{
+    background-color: $color-dark;
+    padding: 2rem 0;
+    margin-bottom: 1.2rem;
+    text-align:center;
+    
+    @include atLarge{
+        text-align: left;
+        padding: 1rem 0;
+        margin-bottom: 0;
+    }
+      
+    &__logo{
+        margin: 2rem 0;
+    }
+             
+}

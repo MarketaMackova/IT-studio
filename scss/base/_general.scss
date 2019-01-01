@@ -1,0 +1,25 @@
+
+h1,h2,h3,h4,p,ul,ol,li,body {
+margin: 0;
+padding: 0;
+}
+.clearfix:after, .clearfix:before {
+content: "";
+display: block;
+clear: both;
+}
+*, *:after, *:before {
+box-sizing: border-box;
+}
+a {
+transition: all 0.3s ease-out;
+}
+a:hover { 
+transition: all 0.3s ease-out;
+}
+
+
+body {
+    font-family: $font-primary;
+    color: $color-primary;
+}

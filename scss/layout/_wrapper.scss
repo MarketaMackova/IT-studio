@@ -1,0 +1,13 @@
+.wrapper{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    &--large{
+        @include atMedium{
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+

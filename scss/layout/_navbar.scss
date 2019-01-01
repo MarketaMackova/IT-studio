@@ -1,0 +1,44 @@
+.primary-nav{
+    padding: 2rem 0;
+       
+     @include atLarge{
+        padding: 2.2rem 0 2rem 0; 
+    }
+    
+    ul{
+        color: $color-secondary;
+        list-style: none;
+        text-align: center;
+    }
+    
+    li{
+        display: inline-block;
+        padding-bottom: 1rem;
+        
+        @include atLarge{
+        padding-bottom: 0; 
+        }
+    }
+    
+    a{
+        color: $color-secondary;
+        font-size: .9rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-decoration: none; 
+        padding: .6rem;
+        
+        &:hover{
+            color: $color-light;
+        }
+    }
+    
+    &--pull-right{
+        @include atLarge{
+        float: right;
+        padding-top: 2.7rem;
+        }
+    }
+}
+
+ 
